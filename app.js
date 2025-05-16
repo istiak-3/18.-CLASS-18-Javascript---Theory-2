@@ -46,7 +46,7 @@ let sltCurrency = prompt("Please type USD or, BDT below To convert -");
 
 if (sltCurrency.toUpperCase() == sltUsd) {
     let inputUsd = prompt("Enter Your amount (U.S.D)");
-    let countBdt = 121 * inputUsd;
+    let countBdt = (121 * inputUsd);
 
     inputUsd = Number(inputUsd);
 
